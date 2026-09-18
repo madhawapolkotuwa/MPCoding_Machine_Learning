@@ -1,0 +1,127 @@
+customer_id,name,country,age,annual_income,signup_year,num_purchases,satisfaction_score
+1,Hassan Ali,germany ,52.0,62371.07,2019,0,1.0
+2,Elena Petrova,canada,31.0,58356.82,2019,4,2.0
+3,Alice Johnson,usa ,65.0,30560.46,2022,3,3.0
+4,Bob Smith,India,18.0,60114.83,2021,7,3.0
+5,Elena Petrova,,51.0,47839.27,2019,6,3.0
+6,Carla Diaz,Canada,51.0,49968.83,2021,4,3.0
+7,Grace Kim,UK,37.0,50670.12,2020,7,1.0
+8,Bob Smith,Germany,62.0,81330.11,2021,2,5.0
+9,Deepak Rao,canada,21.0,49703.25,2022,7,4.0
+10,Bob Smith,UK,18.0,74472.67,2022,8,
+11,Carla Diaz,India,23.0,,2019,6,3.0
+12,Bob Smith,india,51.0,33382.06,2021,1,3.0
+13,Frank Lee,UK,40.0,43669.26,2020,4,3.0
+14,Ingrid Novak,USA,46.0,19906.1,2023,5,4.0
+15,Elena Petrova,U.S.A.,37.0,,2020,2,1.0
+16,Jamal Brown,USA,34.0,56735.27,2019,3,5.0
+17,Carla Diaz,U.K.,18.0,60411.68,2023,7,1.0
+18,Deepak Rao,U.S.A.,37.0,29897.43,2019,4,5.0
+19,Deepak Rao,canada,62.0,44662.18,2019,5,3.0
+20,Elena Petrova,germany ,38.0,,2021,6,4.0
+21,Jamal Brown,canada,20.0,22017.91,2023,2,4.0
+22,Bob Smith,canada,37.0,50766.68,2019,7,
+23,Frank Lee,,34.0,63022.14,2020,5,5.0
+24,Frank Lee,India,33.0,51422.6,2022,3,1.0
+25,Carla Diaz,Germany,65.0,61093.4,2019,3,4.0
+26,Bob Smith,United Kingdom,26.0,,2023,5,4.0
+27,Bob Smith,canada,31.0,60658.18,2023,3,3.0
+28,Carla Diaz,INDIA ,41.0,67407.75,2020,5,4.0
+29,Jamal Brown,canada,45.0,52421.3,2021,9,4.0
+30,Hassan Ali,U.K.,31.0,46797.12,2023,6,1.0
+31,Jamal Brown,canada,59.0,64612.64,2020,4,3.0
+32,Deepak Rao,India,52.0,22451.83,2020,4,3.0
+33,Bob Smith,Germany,42.0,79704.24,2019,5,3.0
+34,Bob Smith,canada,37.0,50766.68,2019,7,1.0
+35,Ingrid Novak,germany ,32.0,54257.81,2019,7,1.0
+36,Ingrid Novak,United Kingdom,97.0,36258.34,2023,3,1.0
+37,Jamal Brown,Germany,48.0,20188.94,2021,5,3.0
+38,Deepak Rao,U.K.,34.0,42076.03,2019,2,5.0
+39,Ingrid Novak,,57.0,70215.55,2020,4,
+40,Elena Petrova,United States,56.0,40024.69,2022,10,
+41,Hassan Ali,Germany,48.0,81828.91,2019,1,2.0
+42,Elena Petrova,CANADA,32.0,49865.37,2022,5,1.0
+43,Ingrid Novak,United States,25.0,59713.71,2022,3,4.0
+44,Frank Lee,Canada,,75387.36,2020,4,5.0
+45,Ingrid Novak,germany ,38.0,62523.95,2021,5,1.0
+46,Elena Petrova,U.S.A.,43.0,66619.51,2022,0,2.0
+47,Deepak Rao,Germany,34.0,39137.03,2020,0,1.0
+48,Carla Diaz,Germany,41.0,53047.85,2022,4,3.0
+49,Elena Petrova,Germany,63.0,512000.0,2020,2,2.0
+50,Frank Lee,USA,20.0,52127.01,2020,2,2.0
+51,Deepak Rao,Germany,37.0,33538.37,2023,4,2.0
+52,Grace Kim,INDIA ,54.0,69373.81,2019,4,4.0
+53,Deepak Rao,INDIA ,18.0,73625.71,2020,4,5.0
+54,Frank Lee,INDIA ,19.0,56109.44,2020,1,2.0
+55,Frank Lee,U.S.A.,55.0,77855.26,2019,6,4.0
+56,Jamal Brown,,59.0,44838.76,2019,2,1.0
+57,Grace Kim,germany ,5.0,53428.82,2023,1,1.0
+58,Bob Smith,INDIA ,19.0,71753.4,2020,2,2.0
+59,Alice Johnson,USA,34.0,,2023,5,4.0
+60,Grace Kim,United States,53.0,55315.06,2023,2,1.0
+61,Carla Diaz,usa ,,66105.11,2023,3,1.0
+62,Alice Johnson,germany ,52.0,62971.0,2022,8,5.0
+63,Frank Lee,United Kingdom,18.0,46499.96,2020,3,1.0
+64,Hassan Ali,India,41.0,88672.1,2023,4,1.0
+65,Carla Diaz,germany ,46.0,78513.92,2022,4,
+66,Frank Lee,India,33.0,51422.6,2022,3,1.0
+67,Alice Johnson,UK,42.0,39267.57,2020,1,1.0
+68,Carla Diaz,U.S.A.,41.0,60016.85,2019,3,3.0
+69,Ingrid Novak,germany ,58.0,26882.97,2021,7,5.0
+70,Deepak Rao,INDIA ,28.0,47473.64,2020,3,4.0
+71,Deepak Rao,U.S.A.,38.0,43292.89,2019,1,4.0
+72,Jamal Brown,india,34.0,48402.04,2022,4,2.0
+73,Elena Petrova,U.S.A.,37.0,52979.91,2020,2,1.0
+74,Jamal Brown,U.K.,76.0,56262.45,2023,1,2.0
+75,Ingrid Novak,usa ,45.0,,2019,5,2.0
+76,Frank Lee,CANADA,43.0,57772.54,2023,3,
+77,Deepak Rao,U.K.,38.0,52607.25,2020,2,5.0
+78,Jamal Brown,UK,29.0,62424.33,2022,4,3.0
+79,Bob Smith,UK,41.0,62036.75,2021,3,4.0
+80,Frank Lee,USA,20.0,52127.01,2020,2,2.0
+81,Ingrid Novak,canada,21.0,50787.91,2019,4,3.0
+82,Bob Smith,Canada,47.0,38483.53,2022,1,1.0
+83,Elena Petrova,Germany,,64425.18,2023,6,4.0
+84,Bob Smith,United Kingdom,34.0,44262.85,2021,4,4.0
+85,Elena Petrova,canada,43.0,49160.68,2019,4,
+86,Deepak Rao,canada,62.0,44662.18,2019,5,3.0
+87,Carla Diaz,United States,42.0,44606.36,2023,2,5.0
+88,Alice Johnson,germany ,44.0,62459.38,2023,2,5.0
+89,Frank Lee,Germany,45.0,42778.24,2022,3,3.0
+90,Frank Lee,,28.0,80106.22,2021,6,5.0
+91,Frank Lee,India,66.0,69067.57,2023,3,1.0
+92,Jamal Brown,usa ,44.0,72033.48,2022,2,3.0
+93,Hassan Ali,United Kingdom,,,2021,3,1.0
+94,Hassan Ali,India,47.0,41167.52,2020,0,3.0
+95,Ingrid Novak,USA,29.0,91507.72,2021,7,3.0
+96,Elena Petrova,india,40.0,61127.69,2020,5,3.0
+97,Grace Kim,United Kingdom,47.0,57178.06,2019,7,2.0
+98,Bob Smith,UK,46.0,40682.54,2019,4,1.0
+99,Ingrid Novak,India,47.0,46927.88,2020,4,
+100,Ingrid Novak,U.S.A.,48.0,45694.54,2019,8,3.0
+101,Carla Diaz,United States,,44526.76,2021,1,5.0
+102,Grace Kim,Germany,44.0,45768.55,2023,2,5.0
+103,Jamal Brown,germany ,20.0,480000.0,2022,3,5.0
+104,Grace Kim,usa ,19.0,43065.54,2021,8,1.0
+105,Carla Diaz,,41.0,,2020,3,3.0
+106,Hassan Ali,U.K.,31.0,46797.12,2023,6,1.0
+107,Hassan Ali,UK,45.0,49610.62,2021,3,5.0
+108,Ingrid Novak,canada,,58655.31,2023,3,5.0
+109,Grace Kim,INDIA ,19.0,64569.29,2021,4,3.0
+110,Alice Johnson,India,37.0,64310.08,2022,8,3.0
+111,Hassan Ali,U.S.A.,54.0,50704.8,2023,5,3.0
+112,Hassan Ali,,37.0,71759.44,2022,7,5.0
+113,Alice Johnson,USA,30.0,82186.73,2021,6,3.0
+114,Alice Johnson,Germany,21.0,83302.42,2023,3,5.0
+115,Carla Diaz,UK,34.0,29971.24,2023,6,1.0
+116,Alice Johnson,United States,42.0,84618.57,2020,6,4.0
+117,Grace Kim,india,52.0,58350.04,2020,4,1.0
+118,Grace Kim,United States,37.0,65222.51,2022,3,3.0
+119,Ingrid Novak,india,41.0,45557.25,2022,3,2.0
+120,Jamal Brown,canada,48.0,70992.98,2021,4,5.0
+121,Grace Kim,U.S.A.,,65083.86,2019,4,5.0
+122,Alice Johnson,germany ,40.0,58723.31,2019,3,2.0
+123,Jamal Brown,United Kingdom,58.0,51939.54,2023,8,2.0
+124,Ingrid Novak,,33.0,63934.65,2020,4,
+125,Jamal Brown,INDIA ,33.0,58907.93,2023,2,5.0
+126,Carla Diaz,,38.0,,2023,4,1.0
