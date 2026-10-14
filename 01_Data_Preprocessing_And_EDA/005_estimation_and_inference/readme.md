@@ -81,7 +81,8 @@ The non-parametric approach (left) just describes the shape it sees. The paramet
 
 Here the question is how ice cream sales depend on temperature, and the two approaches answer it very differently.   
 
-[parametric_vs_nonparametric_fit](parametric_vs_nonparametric_fit.html)
+Live preview:  
+[parametric vs_nonparametric fit](https://htmlpreview.github.io/?https://github.com/madhawapolkotuwa/MPCoding_Machine_Learning/blob/main/01_Data_Preprocessing_And_EDA/005_estimation_and_inference/parametric_vs_nonparametric_fit.html)
 
 -------------------------
 
@@ -112,7 +113,9 @@ For a Normal distribution, the MLE of $\mu$ turns out to be exactly the sample m
 
 The example is a coin again, so it connects to the earlier topics. You flip it and see 7 heads and 3 tails (the widget keeps the same 70/30 split as you add flips). The question is: what is the heads chance of the coin that produced this?    
 
-[mle_and_log_likelihood_coin](mle_and_log_likelihood_coin.html)
+Live preview:  
+[mle and log likelihood coin](https://htmlpreview.github.io/?https://github.com/madhawapolkotuwa/MPCoding_Machine_Learning/blob/main/01_Data_Preprocessing_And_EDA/005_estimation_and_inference/mle_and_log_likelihood_coin.html)
+
 
 --------------------------
 
@@ -213,7 +216,8 @@ Bayesian posterior mean: 0.67
 
 Here’s an interactive version of the classic example: a coin you suspect might be biased. Drag the slider to flip it more times and watch how each camp reasons about it.
 
-[frequentist_vs_bayesian_coin](frequentist_vs_bayesian_coin.html)
+Live preview:  
+[frequentist vs bayesian coin](https://htmlpreview.github.io/?https://github.com/madhawapolkotuwa/MPCoding_Machine_Learning/blob/main/01_Data_Preprocessing_And_EDA/005_estimation_and_inference/frequentist_vs_bayesian_coin.html)
 
 ------------
 

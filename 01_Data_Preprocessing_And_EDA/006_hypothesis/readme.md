@@ -178,7 +178,8 @@ Lowering the cutoff raises power but also raises $\alpha$. The cure for weak pow
 
 live check:
 
-[hypothesis testing two coins](hypothesis_testing_two_coins.html)
+[hypothesis testing two coins](https://htmlpreview.github.io/?https://github.com/madhawapolkotuwa/MPCoding_Machine_Learning/blob/main/01_Data_Preprocessing_And_EDA/006_hypothesis/hypothesis_testing_two_coins.html)
+
 
 ---
  
