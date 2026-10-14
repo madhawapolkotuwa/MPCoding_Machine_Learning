@@ -197,6 +197,13 @@ Bayesian posterior mean: 0.67
 - The **frequentist** result (left) is a single point estimate ($\hat{p}=0.70$) plus an interval describing how that estimation *procedure* would behave if repeated many times.
 - The **Bayesian** result (right) is a full posterior distribution over $p$, shrunk slightly toward the prior's center (0.5) since the prior still carries some weight - giving a posterior mean of 0.67 rather than exactly 0.70.
 
+------------
+
+
+
+------------
+
+
 ## Recap
 
 - **Estimation** computes a value from data; **inference** attaches uncertainty to it.

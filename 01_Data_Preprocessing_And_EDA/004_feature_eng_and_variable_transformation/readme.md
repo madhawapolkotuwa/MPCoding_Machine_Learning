@@ -135,15 +135,33 @@ Different continuous (numeric) features often live on very different scales - fo
 
 ### Example: why scale matters
 
-Imagine comparing `age` (0–100) and `annual_income` (0–200,000) directly in a distance-based calculation. A $10,000 difference in income would swamp a 10-year difference in age, even if age is actually the stronger predictor. Scaling puts both features on a level playing field before the model ever sees them.
+Imagine comparing `age` (0 – 100) and `annual_income` (0 – 200,000) directly in a distance-based calculation. A $10,000 difference in income would swamp a 10-year difference in age, even if age is actually the stronger predictor. Scaling puts both features on a level playing field before the model ever sees them.
 
 ## Feature Scaling: Approaches
 
 Common approaches to scaling include:
 
 - **Standard scaling** - converts a feature to a **standard normal** variable by subtracting the mean and dividing by the standard deviation. Result: mean ≈ 0, standard deviation ≈ 1.
+
+$$z=\frac{x-\mu}{\sigma}$$
+$$\mu = \text{Mean}, \quad \sigma = \text{Standard Deviation}$$
+
+--------------------
+
 - **Min-max scaling** - maps a variable's minimum to `0` and maximum to `1`, so all values fall in the `(0, 1)` interval. This method is **sensitive to outliers**, since a single extreme value stretches the whole scale.
+
+$$X_{scaled} = \frac{x - x_{min}}{x_{max} - x_{min}}$$
+
+-------------------
+
 - **Robust scaling** - similar to min-max scaling, but uses the **interquartile range** (75th percentile minus 25th percentile) instead of the min/max. Because it ignores the extremes, the resulting values can fall *outside* `(0, 1)` - but it's much less thrown off by outliers.
+
+$$X_{new} = \frac{X - X_{median}}{IQR}$$
+
+
+$$X_{median} = \text{median of the data}, \quad IQR = \text{Quartile 3 - Quartile 1}$$
+
+--------------------------------
 
 ![Box plots comparing original data to standard, min-max, and robust scaling, with outliers present](../images/scaling_comparison.png)
 
