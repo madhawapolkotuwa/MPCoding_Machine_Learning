@@ -79,6 +79,12 @@ print(f"Fitted Normal: mu={mu_hat:.2f}, sigma={sigma_hat:.2f}")
 ![](../images/parametric_vs_nonparametric.png)
 The non-parametric approach (left) just describes the shape it sees. The parametric approach (right) assumes the data is Normal and boils it down to two numbers, μ and 𝜎.
 
+Here the question is how ice cream sales depend on temperature, and the two approaches answer it very differently.   
+
+[parametric_vs_nonparametric_fit](parametric_vs_nonparametric_fit.html)
+
+-------------------------
+
 ### Parametric Models
 
 **Maximum Likelihood Estimation (MLE)**  
@@ -103,6 +109,12 @@ print(f"Sample mean:  {sample.mean():.2f}")
 
 ![Log-likelihood curve for candidate values of mu, peaking at the MLE estimate](../images/mle_illustration.png)  
 For a Normal distribution, the MLE of $\mu$ turns out to be exactly the sample mean : the plot above shows the log-likelihood peaking right at that value.
+
+The example is a coin again, so it connects to the earlier topics. You flip it and see 7 heads and 3 tails (the widget keeps the same 70/30 split as you add flips). The question is: what is the heads chance of the coin that produced this?    
+
+[mle_and_log_likelihood_coin](mle_and_log_likelihood_coin.html)
+
+--------------------------
 
 ### Commonly Used Distribution
 
@@ -199,7 +211,9 @@ Bayesian posterior mean: 0.67
 
 ------------
 
+Here’s an interactive version of the classic example: a coin you suspect might be biased. Drag the slider to flip it more times and watch how each camp reasons about it.
 
+[frequentist_vs_bayesian_coin](frequentist_vs_bayesian_coin.html)
 
 ------------
 

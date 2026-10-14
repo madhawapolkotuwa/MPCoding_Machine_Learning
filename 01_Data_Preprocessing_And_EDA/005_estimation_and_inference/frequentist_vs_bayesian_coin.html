@@ -2623,4 +2623,70 @@ function draw(){
 document.getElementById('n').addEventListener('input',draw);
 document.getElementById('prior').addEventListener('change',draw);
 draw();
-</script></div></body></html>
+</script>
+
+</div>
+
+<div>
+  <h1>The core difference</h1>
+  <p>Both camps want to learn the same thing: how likely is this coin to land heads? They disagree on what “probability” means and what counts as evidence.</p>
+  <br>
+  <br>
+  <p><h3>Frequentist thinking:</h3> “Probability is what happens if you repeat something many, many times.” The coin has one true heads rate, which is fixed but unknown. The only thing that varies is your data. So a frequentist looks at the flips, makes a best guess (the orange dot), and draws a range around it (the orange bar). That range says: “If I ran this experiment over and over, ranges built this way would catch the true value about 95% of the time.” It is a statement about the method, not about this particular range.</p>
+  <br>
+  <br>
+  <p><h3>Bayesian thinking:</h3> “Probability is how strongly I believe something, given what I know.” You start with a belief (the dashed gray curve), see the data, and update to a new belief (the blue curve). The curve is a picture of your confidence: tall means “very plausible,” flat means “no idea.” The 95% range here means what people naturally assume: “I’m 95% sure the true value is in here.”</p>
+  <br>
+  <br>
+  <h2>What to try in the widget</h2>
+  <h4>1.Start at 0 flips with “No opinion.”</h4><p>The frequentist has nothing to say at all. The Bayesian shows a flat curve: every possibility is equally believable.</p>
+  <br>
+  <h4>2.Slide to about 5 to 10 flips.</h4><p>The frequentist range is huge, and the blue curve is wide and lumpy. Both are saying the same thing: not enough data yet.</p>
+  <br>
+  <h4>3.Slide toward 100.</h4><p>The range shrinks and the blue curve becomes a narrow spike. With lots of data, the two approaches mostly agree.</p>
+  <br>
+  <h4>4.Switch to “I think coins are usually fair” at a low flip count.</h4><p>Now the Bayesian curve stays pulled toward 50%, because it takes your prior belief seriously. The frequentist side doesn’t change, because it only listens to the data. As you add flips, the data overpowers the prior and the blue curve drifts to where the frequentist is.</p>
+  <br>
+  <br>
+</div>
+
+<div>
+  <h2>A everyday analogy</h2>
+  <br>
+  <p>Imagine a friend is late, and you wonder if they’ll show up.</p>
+  <br>
+  <p>* A frequentist says: “Out of all the times people have been 20 minutes late, how often did they show?” They rely only on the repeated-trials record.</p>
+  <p>* A Bayesian says: “I know this friend is usually reliable (prior), and they just texted ‘traffic is bad’ (new data), so I now think they’ll probably show.” They combine what they already knew with what they just saw.</p>
+
+  <br>
+
+  <h2>When each one shines</h2>
+
+  <table style="border:1px solid black; width:100%;">
+    <tr>
+      <th>-</th>
+      <th>Frequentist</th>
+      <th>Bayesian</th>
+    </tr>
+    <tr>
+      <td>Strength</td>
+      <td>Simple, standard, no need to pick a starting belief</td>
+      <td>Uses prior knowledge, gives intuitive answers like “92% chance B beats A”</td>
+    </tr>
+    <tr>
+      <td>Weakness</td>
+      <td>Confidence ranges are easy to misread</td>
+      <td>Results depend on your starting belief, which can be debated</td>
+    </tr>
+    <tr>
+      <td>Typical use</td>
+      <td>Clinical trials, regulatory studies, classic hypothesis tests</td>
+      <td>A/B testing, small-data problems, anything that updates continuously</td>
+    </tr>
+  </table>
+
+</div>
+
+</body>
+
+</html>
