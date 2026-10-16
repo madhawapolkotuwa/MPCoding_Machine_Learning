@@ -372,7 +372,7 @@ ax.set_ylabel("density")
 ax.set_title("Two-sided z-test: rejection region vs. p-value")
 ax.legend()
 fig.savefig("../images/01_null_rejection_pvalue.png", dpi=150, bbox_inches="tight")
-plt.show()
+plt.show(fig)
 ```
 
 Output:
@@ -438,7 +438,7 @@ for ax, alpha in zip(axes, [0.10, 0.05, 0.01]):
 axes[0].set_ylabel("density")
 fig.suptitle(f"Same data (observed z = {z_obs}, blue line), three different alphas", y=1.04)
 fig.savefig("../images/02_alpha_choices.png", dpi=150, bbox_inches="tight")
-plt.show()
+plt.show(fig)
 ```
 
 Output:
@@ -465,9 +465,9 @@ For our example: $253 \pm 1.96 \times 1.3333 = (250.39,\ 255.61)$. The value 250
 | Misconception | Reality |
 |---|---|
 | "The p-value is the probability that $H_0$ is true." | No. It is computed *assuming* $H_0$ is true. It is the probability of data this extreme given $H_0$, not the probability of $H_0$ given the data. |
-| "$p = 0.0244$ means a 2.44% chance the result is a fluke." | Not quite. It means that *if* there were no real effect, you'd see data this extreme 2.44% of the time. |
+| " $p = 0.0244$ means a 2.44% chance the result is a fluke." | Not quite. It means that *if* there were no real effect, you'd see data this extreme 2.44% of the time. |
 | "A small p-value means a large or important effect." | No. With a huge sample, a trivial effect can give a tiny p-value. Always look at the size of the effect, not just $p$. |
-| "$p > 0.05$ proves $H_0$ is true." | No. It means you didn't find enough evidence against it. Maybe there was no effect, or maybe your test was too weak (low power, see Section 4). |
+| " $p > 0.05$ proves $H_0$ is true." | No. It means you didn't find enough evidence against it. Maybe there was no effect, or maybe your test was too weak (low power, see Section 4). |
 | "0.05 is a law of nature." | It's a convention. A result with $p = 0.049$ is not meaningfully different from one with $p = 0.051$. |
 | "I can pick $\alpha$ after seeing the p-value." | That is p-hacking. Choose $\alpha$ first. |
 
